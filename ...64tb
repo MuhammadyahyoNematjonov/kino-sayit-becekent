@@ -1,0 +1,20 @@
+#REDIS
+
+1) Redisni loyihaga o'rnatish.
+  * npm install --save @nestjs-modules/ioredis ioredis
+
+2) Redisni kompyuterga o'rnatish(ubuntu)
+  * sudo apt update
+  * sudo apt install redis
+  * sudo systemctl start redis
+  
+3) Redis ishlayotganini tekshirish
+  * redis-cli ping
+  * natija "pong" chiqsa ishlayotgan bo'ladi
+  
+4) Terminalda redisdan foydalanish
+  * redis-cli
+  * keys * 
+  * get key
+  * del key
+  * ttl key
